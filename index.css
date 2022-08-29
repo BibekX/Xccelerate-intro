@@ -1,0 +1,296 @@
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Silkscreen", cursive !important;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+  background-color: #41ead4 !important;
+}
+
+/* Section 1 */
+.section-1 {
+  font-family: "Silkscreen", cursive;
+}
+
+#particles-js {
+  background-color: #41ead4;
+  height: 100vh;
+  width: 99vw;
+}
+
+.textcontainer {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.course-name {
+  font-size: 50px;
+  color: #5762f1;
+  text-shadow: none;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.hero-title {
+  font-size: 40px;
+}
+
+/* 3D button */
+.pushable {
+  background: #0a18e7;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+}
+.front {
+  display: block;
+  padding: 5px 12px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #5762f1;
+  color: white;
+  transform: translateY(-6px);
+  font-family: "Silkscreen", cursive;
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+/* Section 2 */
+#section-2 {
+  background-image: url("./img/web/2-edit.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.section-title {
+  font-weight: 10000;
+  font-size: 50px;
+  padding: 40px 0;
+  text-align: center;
+  color: white;
+}
+
+.card-box {
+  height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.each-card {
+  width: 350px;
+  transition: 0.3s;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.card-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-img {
+  width: 250px !important;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-img-1 {
+  transform: scaleX(-1);
+  border: 10px solid #9090eb;
+}
+
+.card-img-2 {
+  border: 10px solid #82c5a1;
+}
+
+.card-name {
+  font-size: 40px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 25px;
+  color: aqua;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
+    0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+/* Down Arrow */
+html body [data-ca3_iconfont="ETmodules"]::before {
+  font-family: "ETmodules";
+}
+[data-ca3_icon]::before {
+  font-weight: normal;
+  content: attr(data-ca3_icon);
+}
+
+.ca3-scroll-down-arrow {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ca3-scroll-down-link {
+  cursor: pointer;
+  height: 60px;
+  width: 80px;
+  margin: 0px 0 0 -40px;
+  line-height: 60px;
+  position: absolute;
+  left: 50%;
+  color: black;
+  text-align: center;
+  font-size: 70px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+  -webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+  -moz-animation: ca3_fade_move_down 2s ease-in-out infinite;
+  animation: ca3_fade_move_down 2s ease-in-out infinite;
+}
+
+.arrow-1 {
+  bottom: -96vh;
+}
+
+.arrow-2 {
+  bottom: -195vh;
+}
+
+.arrow-3 {
+  bottom: -293vh;
+}
+
+/*animated scroll arrow animation*/
+@-webkit-keyframes ca3_fade_move_down {
+  0% {
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@-moz-keyframes ca3_fade_move_down {
+  0% {
+    -moz-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -moz-transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+@keyframes ca3_fade_move_down {
+  0% {
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+}
+
+.frontend-image {
+  height: 100vh;
+  width: auto;
+}
+
+#section-3,
+#section-4,
+#sectin-5 {
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.frontend-img {
+  width: auto;
+  height: 150px;
+}
+
+#section-3 {
+  background-color: #41ead4;
+}
+
+.carousel {
+  padding-top: 50px;
+}
+
+.carousel-info {
+  font-weight: 300;
+  font-size: 2.2em;
+  margin-bottom: 1em;
+}
+
+.left-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-carousel-img {
+  height: 200px;
+  width: auto !important;
+}
+
+.right-carousel-img {
+  height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 6% !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
