@@ -191,6 +191,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   bottom: -296vh;
 }
 
+.arrow-4 {
+  bottom: -396vh;
+}
+
 /*animated scroll arrow animation*/
 @-webkit-keyframes ca3_fade_move_down {
   0% {
@@ -239,7 +243,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 #section-3,
 #section-4,
-#section-5 {
+#section-5,
+#section-6 {
   height: 100vh;
 }
 
@@ -304,4 +309,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='blue' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+/* Section 6 */
+.section-6-img {
+  height: 100vh;
+  width: 99vw;
 }
