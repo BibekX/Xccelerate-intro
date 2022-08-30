@@ -184,11 +184,11 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .arrow-2 {
-  bottom: -195vh;
+  bottom: -196vh;
 }
 
 .arrow-3 {
-  bottom: -293vh;
+  bottom: -296vh;
 }
 
 /*animated scroll arrow animation*/
@@ -239,22 +239,33 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 #section-3,
 #section-4,
-#sectin-5 {
+#section-5 {
   height: 100vh;
 }
 
 .box {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  height: 60vh;
 }
 
 .frontend-img {
   width: auto;
-  height: 150px;
+  height: 200px;
 }
 
 #section-3 {
   background-color: #41ead4;
+}
+
+.backend-img-div {
+  text-align: center;
+}
+
+.backend-img {
+  height: 500px;
+  width: auto;
 }
 
 .carousel {
@@ -274,7 +285,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .left-carousel-img {
-  height: 200px;
+  height: 250px;
   width: auto !important;
 }
 
